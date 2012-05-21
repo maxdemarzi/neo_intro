@@ -1,0 +1,35 @@
+=== Description
+
+Introduction to Neo4j
+
+=== Installation
+
+  echo "source 'http://rubygems.org'
+  gem 'neography' " > Gemfile
+  bundle install 
+
+  echo "require 'neography/tasks'" > Rakefile
+  rake neo4j:install
+  rake neo4j:start
+
+  # If you can't download it, make sure wget is installed
+  sudo apt-get install wget
+  
+=== Examples
+
+ Example  1: Recommend Friends
+ Example  2: Recommend Friends with Ruby Idiomatic Sugar
+ Example  3: Six Degrees of Separation 
+ Example  4: Six Degrees of Separation 
+ Example  5: Six Degrees of Separation with Ruby Idiomatic Sugar
+ Example  6: Six Degrees of Separation Shortest Path with Ruby Idiomatic Sugar
+ Example  7: Recommend Friends using Gremlin
+ Example  8: Six Degrees of Separation using Gremlin
+ Example  9: Recommend Friends using Cypher
+ Example 10: Six Degrees of Separation using Cypher
+
+=== Links
+
+* {Neo4j Community}[http://neo4j.org]
+* {Neography}[https://github.com/maxdemarzi/neography]
+* {Max De Marzi}[http://maxdemarzi.com]
